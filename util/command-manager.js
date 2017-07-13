@@ -1,4 +1,4 @@
-var constants = require("./constants.json");
+var constants = require("./config/constants.json");
 var coolingDown = false
 
 var commandMap = {

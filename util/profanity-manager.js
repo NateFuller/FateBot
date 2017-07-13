@@ -1,6 +1,6 @@
-var profanityDictionary = require('./profanities.json');
-var constants = require('./constants.json');
-var messages = require('./messages.json');
+var profanityDictionary = require('./config/profanities.json');
+var constants = require('./config/constants.json');
+var messages = require('./config/messages.json');
 
 function containsProfanity(message) {
 	var simpleString = message.replace(/\s/g,'').toLowerCase();
